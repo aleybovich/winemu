@@ -1,0 +1,8 @@
+winemu
+dist/
+*.pdb
+
+plan.md
+plan-*.md
+
+testdata/bin/

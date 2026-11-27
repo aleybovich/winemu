@@ -1,0 +1,7 @@
+Hello from Go on Windows! 1
+results [0 50000 99999 150000 200000 249996 299995 350000]
+[brown dog end fox jumps lazy over quick the] 3
+slept true
+cwd ok true
+tempfile data
+recovered: runtime error: invalid memory address or nil pointer dereference

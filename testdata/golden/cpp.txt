@@ -1,0 +1,30 @@
+== iostream ==
+int 42 double 3.5 hex ff bool true
+*****123 0.667
+built 1+2.25
+60 hello
+== containers ==
+sum 210 first 11 last 1
+four=4 one=1 three=3 two=2 
+um 1000 961
+apple fig pear 
+THE QUICK BROWN FOX find=10 sub=QUICK
+== polymorphism ==
+circle 12.57 typeid=Circle
+rect 12.00 typeid=other
+dynamic_cast truefalse
+lambda 144
+use_count 2
+== exceptions ==
+caught deep failure code 77 dtors 6
+out_of_range ok
+int 42
+rethrow inner
+outer catch-all
+stoi invalid
+== threads ==
+counter 4000 total 6000
+slept_ok true
+== fstream ==
+file total 3
+done

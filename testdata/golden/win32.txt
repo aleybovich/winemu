@@ -1,0 +1,55 @@
+PASS WaitForMultipleObjects all
+PASS thread exit codes + TLS isolation
+PASS InterlockedIncrement
+PASS CriticalSection
+PASS static __thread on main
+PASS wait timeout
+PASS condvar + event wakeup
+PASS waiter exit code
+PASS semaphore
+PASS mutex
+PASS Sleep/GetTickCount
+PASS QueryPerformanceCounter
+PASS vectored handler fixes access violation
+PASS RaiseException continuable
+PASS CreateDirectoryW
+PASS CreateDirectory exists error
+PASS CreateFileW
+PASS WriteFile
+PASS SetFilePointerEx + ReadFile
+PASS GetFileSizeEx
+PASS GetFileInformationByHandle
+PASS missing file error
+PASS FindFirstFileW/FindNextFileW
+PASS ERROR_NO_MORE_FILES
+PASS GetFileAttributesW dir
+PASS MoveFileExW
+PASS moved away
+PASS MapViewOfFile read
+PASS mapped view write-back
+PASS DeleteFileW
+PASS RemoveDirectoryW
+PASS GetFullPathNameW
+PASS GetTempPathW
+PASS VirtualAlloc
+PASS VirtualProtect
+PASS VirtualQuery
+PASS VirtualFree
+PASS HeapAlloc zero + size
+PASS HeapReAlloc
+PASS MultiByteToWideChar UTF-8
+PASS WideCharToMultiByte round trip
+PASS GetModuleFileNameW
+PASS GetProcAddress
+PASS GetProcAddress missing
+PASS LoadLibraryW system dll
+PASS LoadLibrary missing
+PASS env case-insensitive
+PASS env missing
+PASS CommandLineToArgvW
+PASS GetSystemInfo
+PASS GetVersionExW
+PASS GetLocalTime
+PASS FileTime conversion
+PASS GetConsoleMode fails on redirected stdout
+fails=0

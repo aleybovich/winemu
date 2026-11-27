@@ -1,0 +1,2 @@
+Name? Age and height? 
+Hello Ada Lovelace, age 36, height 1.65; rest: 3 lines 38 bytes

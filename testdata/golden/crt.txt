@@ -1,0 +1,69 @@
+to stderr
+== printf ==
+-42 17 3000000000 beef CAFE 755 Z str %
+[   42] [42   ] [00042] [+42] [ 42] [007] [     9] [9     ]
+-9223372036854775808 18446744073709551615 123456789abcdef -5 12345 -3 250
+3.141590 2.72     -1.500 10.0      | 1.234568e+04 1.230000E-04 6e+00 0.0001 1E+20 100000 1e-05 1.23457e+08
+0.5 1 1e+100 3.14 1.00000 0xff 010 0x1.0000000000000p+0
+abc|     right|left      |tr|ok
+1000000000000000.000000 -0.000000 0.1 0.3333333333
+inf=inf -inf
+snprintf n=24 buf=hello wor
+0003.500|1000|ab    |
+[vm 7 x 2.2]
+== strings ==
+Hello, World 12
+1 0 1
+World orld lo, World
+6 5
+tok=a tok=b tok=c tok=d 
+duplicate
+xxxxx
+ababcd
+1 0
+A q 1 0 1 1
+== conversions ==
+-123 31 511 9223372036854775807
+end=abc
+42 -99 3.142 2500.0000
+end=xyz
+ovf 2147483647 errno=1
+sscanf=4 12 abc 3.50 99
+scanset=2 key value
+%i=3 26 15 -5
+empty=-1
+== memory ==
+sorted=1 first=0 last=999
+bsearch=500
+realloc ok 999 5
+calloc zero=0
+heap integrity bad=0
+apple banana cherry fig pear 
+== math ==
+0.841471 0.540302 0.546302 2.356194 1.414214
+4.481689 2.302585 3.000000 1.414214 3.250000
+-3.0 -2.0 3.0 -2.0 1.500 5.000
+0.4794 1.4142 15.5885 -3 4
+frexp=0.750 6 ldexp=12.0 modf=3.00 0.75 cbrt=3.000
+isnan=1 isinf=1
+float loop 7.37497
+basel 1.6439345667
+== control ==
+longjmp=42
+sum=15 fib30=832040
+pt 1.5 -2.5 origin-ish
+fnv=c2cc699511dc4303
+div -3 -1 6148914691236517205
+argc=2 argv1=arg1
+== files ==
+read: line one
+read: line 2
+read: third
+eof=1
+size=31
+fread=3 2 3 2147483647 tell=16
+lines=4
+fscanf line one
+rename=0
+remove=0 0
+missing=0000000000000000

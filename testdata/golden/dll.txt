@@ -1,0 +1,4 @@
+implicit: mylib v1 add=1005 value=77 tcount=1
+dynamic: same module=1 add=1030
+dll path tail=mylib.dll
+mylib detach

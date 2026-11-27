@@ -1,0 +1,16 @@
+child: argc=3 [one] [two three]
+child: PARENT_VAR=hello-from-parent
+parent: system returned 30
+parent read: child: argc=2 [popen-mode]
+parent read: child: PARENT_VAR=hello-from-parent
+parent: _pclose=20
+parent: CreateProcess ok=1
+parent captured:
+child: argc=2 [echo-stdin]
+child: PARENT_VAR=hello-from-parent
+child got: alpha
+child got: beta
+parent: child exit code 20
+'nosuchprogram' is not recognized as an internal or external command,
+operable program or batch file.
+parent: missing -> 1
